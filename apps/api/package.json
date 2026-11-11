@@ -1,0 +1,25 @@
+{
+  "name": "testimpact-ai-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TestImpact AI analysis API",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/parser": "^8.1.0",
+    "@babel/traverse": "^8.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

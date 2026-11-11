@@ -1,0 +1,12 @@
+{
+  "name": "testimpact-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Explainable regression test prioritization platform",
+  "scripts": {
+    "dev:api": "npm --prefix apps/api run dev",
+    "start:api": "npm --prefix apps/api start",
+    "dev:web": "npm --prefix apps/web run dev",
+    "build:web": "npm --prefix apps/web run build"
+  }
+}
