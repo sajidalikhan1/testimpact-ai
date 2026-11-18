@@ -5,5 +5,5 @@ const app = require("./app");
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-  console.log(`TestImpact AI API running at http://localhost:${PORT}`);
+  console.log(`TestImpact AI API running on port ${PORT}`);
 });
